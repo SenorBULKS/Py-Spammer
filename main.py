@@ -28,9 +28,7 @@ while c > 0:
     print(c)
     c -= 1
 
-i = 0
 for i in range(amount):
     sleep(int(delay))
     p.typewrite(msg)
     p.press("enter")
-    i += 1
